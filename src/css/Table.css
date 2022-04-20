@@ -1,0 +1,19 @@
+table{
+    border-right:1px solid;
+    border-bottom:1px solid;
+}
+
+table thead th {
+    border: 1px solid;
+    text-align: center; 
+    font-weight:bold;
+}
+
+table tbody td{
+    border-left:1px solid;
+    border-top:1px solid;
+}
+
+table tbody tr:nth-child(2n){ 
+    background: #f3f3f3;
+}
